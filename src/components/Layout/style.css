@@ -1,0 +1,66 @@
+.brand-name {
+  position: fixed;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: var(--font-color);
+  font-family: var(--bold-font);
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.brand-name img {
+  height: 100%;
+  width: auto;
+  margin-right: 5px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 29, 33, 1) 30%,
+    rgba(165, 6, 9, 1) 100%
+  );
+  padding: 0;
+  padding-top: 30px;
+  box-shadow: inset 0 0 2px gray;
+  border-top-right-radius: 1rem;
+}
+.sidebar a {
+  display: block;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar ul li {
+  list-style: none;
+}
+.sidebar ul li a {
+  display: block;
+  color: var(--font-color-2);
+  font-family: var(--bold-font);
+  font-weight: bold;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin: 5px 15px 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.sidebar ul li a.active {
+  color: var(--brand-color-dark);
+  background-color: #fff;
+}
+
+.signout-link {
+  color: #ffb7bd;
+  font-weight: bold;
+  /* text-align: center; */
+  margin-top: 50px;
+  /* display: block */
+}

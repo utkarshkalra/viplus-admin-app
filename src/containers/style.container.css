@@ -1,0 +1,36 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(244, 29, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 29, 33, 1) 30%,
+    rgba(165, 6, 9, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 15px;
+  color: var(--font-color-2);
+  align-items: center;
+  min-height: 50px;
+}
+.container-header h3 {
+  margin: 0;
+}
+.container-header button {
+  background: var(--font-color-2) !important;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.modal button.close {
+  background: none !important;
+  color: var(--font-color-2);
+  outline: none;
+}
+
+.modal button.close:hover {
+  background: none !important;
+  color: var(--font-color-2);
+}

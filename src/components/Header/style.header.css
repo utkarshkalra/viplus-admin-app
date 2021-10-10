@@ -1,0 +1,30 @@
+nav.header-nav {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  /* border: 2px solid red; */
+  align-items: center;
+  font-family: var(--bold-font);
+  font-weight: bold;
+
+  background: rgb(244, 29, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 29, 33, 1) 30%,
+    rgba(165, 6, 9, 1) 100%
+  );
+}
+
+.navbar-image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-color-2);
+  text-transform: uppercase;
+}
+
+.header-nav img {
+  height: 65%;
+  width: auto;
+}

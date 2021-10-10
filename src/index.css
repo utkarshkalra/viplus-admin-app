@@ -1,0 +1,39 @@
+:root {
+  --light-font: "Inter", sans-serif;
+  --bold-font: "PT Sans", sans-serif;
+  --bg: #f4f6f8;
+  --font-color: #434344;
+  --brand-color: #e00e21;
+  --brand-color-dark: #a50609;
+  --font-color-2: white;
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0;
+  font-family: var(--light-font);
+  font-weight: 400;
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none !important;
+  background-color: var(--brand-color) !important;
+}
